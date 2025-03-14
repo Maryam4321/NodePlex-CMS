@@ -10,8 +10,6 @@ NodePlex CMS is a robust and flexible content management system built on Node.js
 
 **Customizable:** Tailored to meet specific needs with extensive configuration options.
 
-# Quick Start
-
 # Getting Started
 Follow these steps to set up NodePlex CMS quickly:
 
