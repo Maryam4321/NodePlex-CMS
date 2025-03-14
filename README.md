@@ -20,24 +20,33 @@ Install MySQL
 
 # Installation
 **1. Create Project Directory:**
+
 	mkdir mycms && cd mycms
 
 **2. Install NodePlex CMS:**
+
 	npm install cody
 
 **3. Initialize Your Site:**
+
 	node ./node_modules/cody/bin/create_site
+ 
 Follow the interactive setup to configure your CMS.
 
+
 **4. Configure DNS for Local Testing:**
+
 	echo "127.0.0.1 mysite.local" | sudo tee -a /etc/hosts
 
 **5. Start the Server:**
+
 	node mysite.js
 Alternatively, use forever for persistent running:
+
 	forever start mysite.js
 
 **6. Access Your Site:**
+
 	CMS Dashboard: http://mysite.local:3001/en/dashboard
 	Frontend: http://mysite.local:3001
 
