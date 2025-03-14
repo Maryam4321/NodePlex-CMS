@@ -62,5 +62,5 @@ Modify **config.json** directly or override settings using command-line flags or
 
 **Authentication Errors:** If prompted unexpectedly for a password, check your MySQL root password and reset if necessary: MySQL Password Reset
 
-**Contributors**
+# Contributors
 We welcome contributions! See our contribution guidelines for more details.
