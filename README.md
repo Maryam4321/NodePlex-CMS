@@ -52,14 +52,14 @@ Alternatively, use forever for persistent running:
 
 # Configuration
 Modify config.json directly or override settings using command-line flags or environment variables:
+
 	node index.js -c my_config.json
 	dbuser=admin dbpassword=secret port=8080 node index.js
 
 # Troubleshooting
 **Connection Errors:** Ensure MySQL is running. On macOS, use System Preferences to start MySQL. On Unix:
+
 	mysqld &
- 
-**Authentication Errors:** If prompted unexpectedly for a password, check your MySQL root password and reset if necessary: MySQL Password Reset
 
 # Contributors
 We welcome contributions! See our contribution guidelines for more details.
